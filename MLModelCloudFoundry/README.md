@@ -16,7 +16,7 @@ ibmcloud target -r <REGION>
 ```
 ibmcloud target -cf
 ```
-#set org and space, make sure you set the current region id in the cli, you can get organization id and space id from Manage->Account-> Cloud Foundry orgs
+## set the org and space correctly and make sure you set the current region id in the cli. You can get organization id and space id from Manage->Account-> Cloud Foundry orgs
 ```
 ibmcloud target -o 'ORGANIZATION_ID' -s 'SPACE_ID'
 ```
