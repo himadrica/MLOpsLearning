@@ -1,0 +1,8 @@
+---
+applications:
+ - name: MLModelAPI
+   random-route: true
+   command: python app.py
+   memory: 256M
+   docker:
+    image: htalukder/python-ml-service
